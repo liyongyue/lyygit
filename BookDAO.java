@@ -23,7 +23,7 @@ public String[] booktitle=new String[10];
         int aid=0;
         try {
             System.out.println(authorName);
-            int i=0;
+            int i=0;hohoh
             conn = ConnectionManager.getConnection();
             stmt = conn.prepareStatement("select * from author where name=\"" + authorName+"\"");
             result = stmt.executeQuery();

@@ -21,7 +21,7 @@ public String[] booktitle=new String[10];
         PreparedStatement stmt = null;
         ResultSet result = null;
         int aid=0;
-        try {
+        try {//dlfpsjfposdj
             System.out.println(BookName);
             conn = ConnectionManager.getConnection();
             stmt = conn.prepareStatement("delete from book where name=\"" + BookName+"\"");
